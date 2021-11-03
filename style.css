@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu:wght@300;400;500&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F2EFE3;
+  color: #334E58;
+}
+
+h1 {
+  color: #2E1F27;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Ubuntu';
+}
+
+h2 {
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+}
+
+ul a:hover {
+  color: #2E1F27;
+}
+
+.video-button {
+  background-color: #DE6449;
+  padding: 15px 5px;
+  color: #F2EFE3;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  display: block;
+  margin: 30px auto;
+  margin-bottom: 10px;
+  width: 140px;
+}
+
+.video-button:hover {
+  background-color: #334E58;
+}
+
+.img-avatar {
+  height: 170px;
+  width: 170px;
+  border-radius: 45%;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  width: 650px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 8px 8px 10px rgb(0,0,0,0.1);
+}
+
+.footer {
+  width: 650px;
+  margin: 20px auto;
+  padding: 5px 30px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 8px 8px 10px rgb(0,0,0,0.1);
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 30px auto;
+}
+
+.btn-logo {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 0px;
+  color: #DE6449;
+  font-size: 25px;
+}
+
+ul a {
+  color: #DE6449;
+  font-size: 30px;
+  opacity: 40%;
+}
+
+#username {
+  color: #DE6449;
+}
