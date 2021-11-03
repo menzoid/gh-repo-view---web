@@ -64,10 +64,12 @@ ul a:hover {
   margin: 30px auto;
   margin-bottom: 10px;
   width: 140px;
+  font-variant: small-caps;
 }
 
 .video-button:hover {
   background-color: #334E58;
+  opacity: 60%;
 }
 
 .img-avatar {
