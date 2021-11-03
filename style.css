@@ -45,8 +45,10 @@ h3 {
 
 p {
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
+    margin: 40px 10px;
+    opacity: 70%;
 }
 
 ul a:hover {
@@ -59,12 +61,16 @@ ul a:hover {
   color: #F2EFE3;
   border-radius: 5px;
   text-decoration: none;
-  font-family: 'Ubuntu';
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
   display: block;
   margin: 30px auto;
   margin-bottom: 10px;
-  width: 140px;
-  font-variant: small-caps;
+  width: 160px;
+  font-variant: normal;
+  letter-spacing: 1px;
+  opacity: 85%;
 }
 
 .video-button:hover {
